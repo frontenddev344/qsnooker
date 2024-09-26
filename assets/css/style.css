@@ -508,7 +508,7 @@ button:hover {
 
 .home-featured-text a h3 {
     color: #fff;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .home-advantage-cards-wrapper {
@@ -630,7 +630,7 @@ img.next-page-image {
 }
 
 form.contact-form {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     padding:30px 20px;
     background-color: transparent;
@@ -696,13 +696,6 @@ form.contact-form {
 .w-full {
     width: 100%;
 }
-
-
-
-
-
-
-
 /* Home Contact Us Form CSS End */
 
 /* Social Icons CSS Start */
