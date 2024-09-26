@@ -92,7 +92,7 @@
                             <input type="text" id="username" name="username" placeholder="Enter Your Email" required>
                             <input type="password" id="password" name="password" placeholder="Enter Your Password"
                                 required>
-                            <button type="submit">Login</button>
+                            <button type="submit">Login <i class="fa-solid fa-right-to-bracket login-icon"></i></button>
                         </form>
                         <p>Don't have an account? <a href="#" id="signup-link">Sign up</a></p>
                     </div>
@@ -105,7 +105,7 @@
                             <input type="email" id="new-email" name="new-email" placeholder="Enter Your Email" required>
                             <input type="password" id="new-password" name="new-password" placeholder="Choose Password"
                                 required>
-                            <button type="submit">Sign Up</button>
+                            <button type="submit">Sign Up <i class="fa-solid fa-right-to-bracket login-icon"></i></button>
                         </form>
                         <p>Already have an account? <a href="#" id="login-link">Login</a></p>
                     </div>
@@ -285,14 +285,48 @@
                 </div>
                 <div class="home-gallery-images">
                     <img src="./assets/images/gallery-image4.jpg" alt="image">
-                </div>                  
+                </div>
                 <div class="home-gallery-images">
                     <img src="./assets/images/gallery-image5.jpg" alt="image">
-                </div>      
+                </div>
             </div>
         </div>
     </div>
     <!-- Home Page Snooker Images Gallery Section End-->
+
+    <!-- Home Contact Form Section Start -->
+    <div class="contact-form-section py-5">
+        <div class="container">
+            <div class="home-contact-form-wrapper">
+                <h2 class="section-heading pb-5">Contact Us</h2>
+
+                <form class="contact-form">
+                    <div class="formbold-mb-5">
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name" class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email"
+                            class="formbold-form-input" />
+                    </div>
+                    <div class="formbold-mb-5">
+                        <input type="text" name="subject" id="subject" placeholder="Enter Subject"
+                            class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <textarea rows="6" name="message" id="message" placeholder="Your Message"
+                            class="formbold-form-input"></textarea>
+                    </div>
+                    <div>
+                        <button class="formbold-btn">Submit <i class="fa-solid fa-paper-plane submit-icon"></i></button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- Home Contact Form Section Start -->
 
     <script src="assets/js/aos.js"></script>
     <script src="./assets/js/index.js"></script>
