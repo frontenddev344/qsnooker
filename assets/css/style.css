@@ -574,6 +574,10 @@ img.next-page-image {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    transition: 0.3s all ease-in-out;
+}
+.home-images-gallery-wrapper:hover img {
+    filter: blur(5px);
 }
 .home-gallery-images {
     width: 32%;
@@ -587,14 +591,16 @@ img.next-page-image {
     object-fit: cover;
     border: 5px solid #fff;
     transition: 0.5s all ease-in-out;
+    transition: all 0.3s ease; 
+    filter: blur(0);
 }
 .home-gallery-images:first-child,.home-gallery-images:last-child{
     width: 100%;
 }
 .home-gallery-images img:hover{
     transform: scale(1.1);
+    filter: blur(0);
 }
-
 /* Social Icons CSS Start */
 .social-icons {
     text-align: center;
