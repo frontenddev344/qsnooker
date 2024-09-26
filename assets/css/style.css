@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 
 /* Global CSS Start */
 
@@ -27,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Gowun Batang", serif;
+    font-family: "Mulish", sans-serif;
     margin: 0;
     line-height: 1.5;
 }
@@ -53,13 +55,13 @@ ul li {
 a {
     display: inline-block;
     text-decoration: none;
-   font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 button,
 input[type=text],
 input[type=submit] {
-   font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 img {
@@ -179,7 +181,7 @@ img {
 
 .contact-us-btn {
     color: #000;
-        display: inline-block;
+    display: inline-block;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
@@ -197,6 +199,7 @@ img {
     color: #FFBB35;
     transform: translateY(-3px);
 }
+
 .phone {
     margin-right: 20px;
     vertical-align: middle;
@@ -238,7 +241,7 @@ img {
 
 /* Section Heading CSS Start */
 h2.section-heading {
-    font-size: 40px;
+    font-size: 55px;
     line-height: 1.5;
     color: #FFBB35;
     margin: 0 auto;
@@ -265,6 +268,7 @@ h2.section-heading {
     width: 100%;
     object-position: center;
 }
+
 .banner-text {
     position: absolute;
     top: 50%;
@@ -302,6 +306,7 @@ h2.section-heading {
     overflow: hidden;
 
 }
+
 /* Banner Section  CSS End */
 
 /* Home Page Intro CSS Start */
@@ -323,8 +328,8 @@ h2.section-heading {
 /* Home Page Intro CSS End */
 
 /* Home Page Sign Up Section Start */
-.home-page-signup-section{
-    background-image: url("../images/home-signup-bg.jpg");  
+.home-page-signup-section {
+    background-image: url("../images/home-signup-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -364,10 +369,12 @@ h2.section-heading {
     background-color: rgba(0 0 0/50%);
     background-blend-mode: multiply;
 }
+
 .form-wrapper {
     height: 100%;
     width: 100%;
 }
+
 .home-signup-wrapper h3 {
     color: #fff;
     font-size: 30px;
@@ -376,23 +383,24 @@ h2.section-heading {
     background-color: transparent;
     backdrop-filter: blur(10px);
 }
-.form-section  h2 {
+
+.form-section h2 {
     margin-bottom: 10px;
     font-size: 36px;
     color: #FFBB35;
-  }
+}
 
-  form {
+form {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  label {
+label {
     margin-bottom: 10px;
     font-size: 18px;
-  }
+}
 
-  input {
+input {
     width: 60%;
     padding: 12px;
     border: none;
@@ -401,9 +409,9 @@ h2.section-heading {
     font-size: 16px;
     color: #fff;
     background-color: #fff;
-  }
+}
 
-  button {
+button {
     padding: 10px;
     background-color: #FFBB35;
     color: #fff;
@@ -413,26 +421,30 @@ h2.section-heading {
     font-size: 18px;
     transition: all 0.4s ease-in-out;
     width: 30%;
-  }
+}
 
-  button:hover {
+button:hover {
     background-color: #fff;
     color: #FFBB35;
     transform: translateY(-1px);
-  }
-  .form-container p {
+}
+
+.form-container p {
     color: #fff;
     margin-top: 10px;
 }
+
 .form-container p a {
     color: #FFBB35;
     margin-top: 10px;
     transition: 0.4s all ease-in-out;
 }
-.form-container p a:hover{
+
+.form-container p a:hover {
     color: red;
-transform: translateX(2px);
+    transform: translateX(2px);
 }
+
 /* Home Page Sign Up Section End */
 
 /* Home Featured Cards CSS Start */
@@ -442,6 +454,7 @@ transform: translateX(2px);
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .home-featured-cards {
     width: 32%;
     box-shadow: #FFBB35 0px 4px 8px;
@@ -450,14 +463,18 @@ transform: translateX(2px);
     position: relative;
     transition: 0.4s all ease-in-out;
 }
-.home-featured-cards:hover{
+
+.home-featured-cards:hover {
     transform: translateY(-5px);
+    box-shadow: #Fff 0px 4px 8px;
 }
+
 .home-featured-image {
     width: 100%;
     height: 400px;
     overflow: hidden;
 }
+
 .home-featured-image img {
     width: 100%;
     height: 100%;
@@ -465,9 +482,7 @@ transform: translateX(2px);
     object-position: center;
     transition: 0.4 all ease-in-out;
 }
-.home-featured-cards:hover .home-featured-image img{
-    transform: scale(1.1);
-}
+
 .home-featured-text {
     position: absolute;
     top: 50%;
@@ -478,17 +493,82 @@ transform: translateX(2px);
     background-color: rgba(0 0 0/65%);
     background-blend-mode: multiply;
 }
-.home-featured-text a{
+
+.home-featured-text a {
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
-.home-featured-text a h3{
+
+.home-featured-text a h3 {
     color: #fff;
-    font-size:30px ;
+    font-size: 30px;
 }
+
+.home-advantage-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-advantage-cards {
+    width: 32%;
+    padding: 40px 10px;
+    background-color: #FFBB35;
+    background-image: linear-gradient(to left, transparent, transparent 50%, #FFf 50%);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    min-height: 200px;
+    position: relative;
+}
+img.next-page-image {
+    height: 30px;
+    width: 30px;
+}
+.target-page {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.home-advantage-cards:hover {
+    background-position: 0 0;
+    box-shadow: #FFBB35 0px 6px 15px;
+    transform: translateY(-5px);
+}
+
+.home-advantage-icons {
+    margin-bottom: 15px;
+}
+
+.home-advantage-content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.home-advantage-cards-wrapper>p {
+    color: #000;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.home-advantage-icons img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 
