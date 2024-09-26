@@ -304,6 +304,24 @@ h2.section-heading {
 }
 /* Banner Section  CSS End */
 
+/* Home Page Intro CSS Start */
+
+.pages-intro-text-wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pages-intro-text-wrapper p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Home Page Intro CSS End */
+
 /* Home Page Sign Up Section Start */
 .home-page-signup-section{
     background-image: url("../images/home-signup-bg.jpg");  
@@ -315,15 +333,15 @@ h2.section-heading {
 }
 
 
-
 .form-section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: transparent;
     backdrop-filter: blur(10px);
-    box-shadow: #FFBB35 0px 4px 8px;
+    box-shadow: #fff 0px 4px 8px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .form-image {
@@ -415,30 +433,66 @@ h2.section-heading {
     color: red;
 transform: translateX(2px);
 }
-
 /* Home Page Sign Up Section End */
 
+/* Home Featured Cards CSS Start */
 
-
-/* Home Page Intro Text CSS Start */
-
-.pages-intro-text-wrapper {
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 0 20px;
+.home-featured-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.home-featured-cards {
+    width: 32%;
+    box-shadow: #FFBB35 0px 4px 8px;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    transition: 0.4s all ease-in-out;
 }
-
-.pages-intro-text-wrapper p {
-    margin-bottom: 10px;
-    text-align: center;
+.home-featured-cards:hover{
+    transform: translateY(-5px);
+}
+.home-featured-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.home-featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4 all ease-in-out;
+}
+.home-featured-cards:hover .home-featured-image img{
+    transform: scale(1.1);
+}
+.home-featured-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0 0 0/65%);
+    background-blend-mode: multiply;
+}
+.home-featured-text a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.home-featured-text a h3{
     color: #fff;
+    font-size:30px ;
 }
 
-/* Home Page Intro Text CSS End */
 
 
+/* Home Featured Cards CSS End*/
 
 
 
@@ -457,7 +511,7 @@ transform: translateX(2px);
     height: 40px;
     border-radius: 10px;
     font-size: 17px;
-    background-color: #00fadf;
+    background-color: #FFBB35;
     color: #000;
     line-height: normal;
     margin: 0 5px;
