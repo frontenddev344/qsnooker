@@ -577,7 +577,7 @@ img.next-page-image {
 }
 .home-gallery-images {
     width: 32%;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
     margin-bottom: 30px;
 }
@@ -587,6 +587,9 @@ img.next-page-image {
     object-fit: cover;
     border: 5px solid #fff;
     transition: 0.5s all ease-in-out;
+}
+.home-gallery-images:first-child,.home-gallery-images:last-child{
+    width: 100%;
 }
 .home-gallery-images img:hover{
     transform: scale(1.1);
