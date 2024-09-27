@@ -68,7 +68,10 @@
         padding: 12px 15px;
         width: 40%;
     }
-
+    .home-advantage-cards {
+        margin-bottom: 30px;
+        min-height: 230px;
+    }
 
 }
 
