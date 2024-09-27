@@ -108,11 +108,7 @@ img {
 }
 
 
-/*
 
- https://preview.themeforest.net/item/eightsy-billiard-school-sport-club-elementor-template-kit/full_screen_preview/35427626?_ga=2.178571309.84875571.1727330022-154049816.1719381000&_gac=1.24162376.1726467419.Cj0KCQjwi5q3BhCiARIsAJCfuZm8hFzgJNDiCWxb7B30YWxnWlj-VjBrRWWavUp2nf5yBualqFnf5sgaAioKEALw_wcB 
- 
- */
 
 /* Global CSS End */
 
@@ -263,6 +259,10 @@ h2.section-heading {
     height: 550px;
     width: 100%;
 }
+.sub-pages-banner-image {
+    height: 450px;
+}
+
 
 .banner-image img {
     height: 100%;
@@ -294,6 +294,10 @@ h2.section-heading {
     font-weight: 600;
     text-transform: capitalize;
     overflow: hidden;
+}
+
+.sub-pages-banner-text h1 {
+    font-size: 55px;
 }
 
 .banner-text h3 {
