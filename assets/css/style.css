@@ -1002,15 +1002,6 @@ span.heading-like {
 /* Other Page CSS Start */ 
  
 /* Tournaments Events Page CSS Start */
-.tornaments-events-cards-content ul li p img {
-    width: 30px;
-    height: 31px;
-    margin-right: 5px;
-    vertical-align: middle;
-    display: inline-block;
-    margin-bottom: 8px;
-    margin-top: 10px;
-}
 
 .tornaments-events-cards-content p {
     color: #fff;
