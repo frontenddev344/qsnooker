@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 AOS.init();
 // AOS JS Start
 
+// SignUp Signin Toggle JS Start
 const loginForm = document.getElementById('login-form');
 const signupForm = document.getElementById('signup-form');
 const loginLink = document.getElementById('login-link');
@@ -54,7 +55,7 @@ signupLink.addEventListener('click', (event) => {
     signupForm.style.opacity = 1;
   }, 10);
 });
-
+// SignUp Signin Toggle JS End
 
 
 

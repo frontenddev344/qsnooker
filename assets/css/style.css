@@ -784,7 +784,7 @@ span.heading-like {
     font-weight: 700;
     margin-bottom: 12px;
     text-align: center;
-    color:#FFBB35;
+    color: #FFBB35;
 }
 
 .footer-links h3 {
@@ -809,7 +809,7 @@ span.heading-like {
 }
 
 .footer .footer-items ul li a:hover {
-    color:#FFBB35;
+    color: #FFBB35;
 }
 
 
@@ -836,7 +836,8 @@ span.heading-like {
     min-width: 20px;
     margin-right: 6px;
 }
-.footer-arrow{
+
+.footer-arrow {
     margin-right: 7px;
 }
 
@@ -993,8 +994,184 @@ span.heading-like {
 
 /* Sub Pages CSS End */
 
+/* Other Page CSS Start */
+.tornaments-events-cards-content ul li p img {
+    width: 30px;
+    height: 31px;
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.tornaments-events-cards-content p {
+    color: #fff;
+    line-height: 1.1;
+}
+
+.tournaments-events-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.tornaments-events-cards-image {
+    width: 40%;
+}
+
+.tornaments-events-cards-content {
+    width: 60%;
+    padding: 20px;
+}
+
+.tornaments-events-cards-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Home Page Accordion CSS Start */
+
+.accordion {
+    background-color: #efb847;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr 0fr;
+    overflow: hidden;
+    transition: grid-template-rows .3s cubic-bezier(.19, 1, .22, 1);
+    margin: .75rem 0
+}
+
+.accordion .top {
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .9375rem;
+    display: flex;
+    position: relative
+}
+
+.accordion .top .text {
+    font-size: 1.125rem;
+    font-weight: 600;
+    white-space: wrap;
+    color: #ffffff;
+}
+
+.accordion .top img {
+    width: 1.5rem;
+    align-self: flex-start;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    transition: transform .3s cubic-bezier(.175, .885, .32, 1.275);
+    filter: brightness(0) invert(1);
+}
+
+.accordion .top input {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    appearance: none;
+    width:100%;
+    background: none;
+}
 
 
+.accordion {
+    background-color: #efb847;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr 0fr;
+    overflow: hidden;
+    transition: grid-template-rows .3s cubic-bezier(.19, 1, .22, 1);
+    margin: .75rem 0
+}
+
+.accordion .top {
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .9375rem;
+    display: flex;
+    position: relative
+}
+
+.accordion .top .text {
+    font-size: 1.125rem;
+    font-weight: 600;
+    white-space: wrap;
+    color: #ffffff;
+}
+
+.accordion .top img {
+    width: 1.5rem;
+    align-self: flex-start;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    transition: transform .3s cubic-bezier(.175, .885, .32, 1.275);
+    filter: brightness(0) invert(1);
+}
+
+.accordion .top input {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    appearance: none;
+    width:100%;
+    background: none;
+}
+
+.accordion .bottom {
+    padding-inline: 1.7rem;
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.19, 1, .22, 1);
+    background-color: #fff;
+}
+
+.accordion .bottom .text {
+    margin-left: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #000;
+}
+
+.accordion:has(input:checked) {
+    grid-template-rows: .1fr 1fr
+}
+
+.accordion:has(input:checked) .top img {
+    transform: rotateZ(45deg)
+}
+.accordion-wrap {
+    margin-top: 3.75rem;
+}
+
+
+
+.accordion:has(input:checked) {
+    grid-template-rows: .1fr 1fr
+}
+
+.accordion:has(input:checked) .top img {
+    transform: rotateZ(45deg)
+}
+.accordion-wrap {
+    margin-top: 3.75rem;
+}
+/* Home Page Accordion CSS Start */
+
+/* Other Page CSS End */
 
 
 
@@ -1055,3 +1232,12 @@ span.heading-like {
 }
 
 /* Cookies CSS End */
+
+/* accordion section css start */
+
+/* accordion section css end */
+
+
+
+
+
