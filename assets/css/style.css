@@ -1029,6 +1029,10 @@ span.heading-like {
     width: 60%;
     padding: 20px;
 }
+.tornaments-events-cards-content h3 {
+    color: #fff;
+    font-size: 30px;
+}
 
 .tornaments-events-cards-image img {
     height: 100%;
