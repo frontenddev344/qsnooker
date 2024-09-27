@@ -164,6 +164,7 @@ img {
     color: #fff;
     transition: 0.5s all ease-in-out;
     border-bottom: solid 1px transparent;
+    font-size: 15px;
 }
 
 .main-navbar ul li a:after {
@@ -212,7 +213,7 @@ img {
 
 .menu-icon {
     display: none;
-    color: #00fadf;
+    color: #FFBB35;
     width: 30px;
     text-align: right;
     cursor: pointer;
@@ -402,7 +403,7 @@ label {
 }
 
 input {
-    width: 60%;
+    width: 70%;
     padding: 12px;
     border: none;
     border-radius: 5px;
@@ -854,7 +855,7 @@ span.heading-like {
 }
 
 .ssl-certificate img {
-    max-width: 160px;
+    max-width: 150px;
 }
 
 /* Footer CSS End */

@@ -1,24 +1,351 @@
-@media screen and (max-width:1200px) {}
-
-@media screen and (max-width:991px) {}
-
-
-
-
-@media screen and (max-width:767px) {}
-
-@media screen and (max-width:575px) {
-    #accordion-wrapper {
-        box-sizing: border-box;
-        transform: translate(0, 0);
-        max-width: 100%;
-        min-height: 100%;
-        margin: 0;
+@media screen and (max-width:1200px) {
+    .main-navbar {
+        position: fixed;
+        top: 0;
         left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        background-color: #000;
+        transform: translateY(-100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+     }
+  
+     .menuToggle .main-navbar {
+        transform: translateY(0);
+        justify-content: flex-start;
+     }
+  
+     .main-navbar ul {
+        flex-direction: column;
+  
+     }
+  
+     .menu-icon {
+        display: block;
+     }
+  
+     .close-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        color: #fff;
+        text-align: end;
+        z-index: 55;
+     }
+  
+     .logo img {
+        max-width: 200px;
+     }
+     a.mobile-hide {
+        display: none;
+    }
+    a.desktop-hide.butn {
+        display: block !important;
+    }
+    .banner-text h1 {
+        font-size: 55px;
+    }
+    .banner-text h3 {
+        font-size: 23px;
+    }
+    .banner-image {
+        height: 450px;
+    }
+    .home-signup-wrapper h3 {
+        font-size: 25px;
+    }
+    h2.section-heading {
+        font-size: 50px;
+     }
+
+
+
+}
+
+@media screen and (max-width:991px) {
+    .banner-image {
+        height: 370px;
+    }
+    .pages-intro-text-wrapper p {
+        font-size: 15px;
+    }
+    .home-signup-wrapper h3 {
+        font-size: 22px;
+    }
+    .home-signup-wrapper h3 {
+        font-size: 24px;
+    }
+    h2.section-heading {
+        font-size: 45px;
+     }
+     input {
+        font-size: 15px;
+    }
+    .home-featured-image {
+        height: 300px;
+    }
+    .home-featured-text a h3 {
+         font-size: 22px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 28px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 15px;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-text h3 {
+        font-size: 21px;
+    }
+    .banner-image {
+        height:330px;
+    }
+    .home-signup-wrapper h3 {
+        font-size: 21px;
+    }
+    .form-image ,.form-container {
+        width: 100%;
+    }
+    .form-container{
+        padding: 10px;
+    }
+    h2.section-heading {
+        font-size: 40px;
+     }
+     .form-section input {
+        width: 80%;
+    }
+    .home-featured-image {
+        height: 280px;
+    }
+    .home-featured-cards {
+        width: 48%;
+        margin-bottom: 35px;
+    }
+    .home-featured-cards:last-child {
+        width: 100%;
+    }
+    .home-advantage-icons img {
+        height: 50px;
+        width: 50px;
+    }
+    img.next-page-image {
+        height: 20px;
+        width: 20px;
+    }
+    .home-advantage-content h3 {
+        font-size: 17px;
+    }
+    .home-advantage-cards {
+        min-height: 230px;
+    }
+    .home-gallery-images {
+        height: 270px;
+    }
+    .home-gallery-images:first-child, .home-gallery-images:last-child {
+        height: 240px;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 26px;
+    }
+    .links a {
+        margin: 0;
+        padding-bottom: 10px;
+        display: block;
+        font-size: 17px;
+     }
+  
+     .links a:last-child {
+        padding-bottom: 0;
+     }
+  
+     .links-social {
+        align-items: flex-start;
+     }
+  
+     .logo-bottom img {
+        max-width: 250px;
+     }
+  
+  
+     .footer-items h3 {
+        font-size: 26px;
+     }
+     .logo-bottom {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-connect,.footer-links{
+        width: 48%;
+    }
+    .footer-items h3 {
+        text-align: left;
+    }
+    .social-icons {
+        justify-content: left;
+       }
+       .copyright p {
+        font-size: 14px;
     }
 
 
 }
 
+@media screen and (max-width:575px) {
+    .banner-text h1 {
+        font-size: 45px;
+    }
+    .banner-text h3 {
+        font-size: 19px;
+    }
+    .banner-image {
+        height: 290px;
+    }
+    .pages-intro-text-wrapper {
+        padding: 0;
+    }
+    .pages-intro-text-wrapper p {
+        font-size: 14px;
+    }
+    .home-signup-wrapper h3 {
+        font-size: 18px;
+    }
+    h2.section-heading {
+        font-size: 35px;
+    }
 
-@media screen and (max-width:480px) {}
+     input {
+        font-size: 14px;
+    }
+    .form-section input {
+        width: 100%;
+    }
+    .form-section {
+        padding: 10px;
+    }
+    .home-featured-cards {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .home-featured-image {
+        height: 260px;
+    }
+    .home-advantage-cards {
+        width: 48%;
+        min-height: 250px;
+    }
+    .home-gallery-images {
+        width: 100%;
+        height: 260px;
+    }
+    form.contact-form {
+        padding: 20px 10px;
+    }
+    .formbold-btn {
+        width: 35%;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 24px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 14px;
+    }
+    .copyright p {
+        font-size: 13px;
+    }
+    .footer .footer-items ul li a {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:480px) {
+    .banner-text h1 {
+        font-size: 40px;
+    }
+    .banner-text h3 {
+        font-size: 17px;
+    }
+    .banner-image {
+        height: 230px;
+    }
+    .home-signup-wrapper h3 {
+        font-size: 15px;
+    }
+    .form-section h2 {
+        font-size: 26px;
+    }
+    h2.section-heading {
+        font-size: 30px;
+    }
+    .form-section button {
+        width: 50%;
+    }
+    .home-featured-image {
+        height: 230px;
+    }
+    .home-featured-text a h3 {
+        font-size: 22px;
+    }
+    .home-advantage-cards {
+        width: 100%;
+    }
+    .home-gallery-images {
+          height: 220px;
+    }
+    .formbold-btn {
+        padding: 10px 32px;
+        width: 55%;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 22px;
+    }
+    .footer-items {
+        width: 100%;
+        margin-bottom: 30px;
+     }
+  
+     .footer-items:last-child {
+        margin-bottom: 0;
+     }
+  
+     .footer-items h3 {
+        text-align: left;
+     }
+  
+     .social-icons {
+        justify-content: flex-start;
+     }
+  
+     .logo-bottom img {
+        max-width: 200px;
+     }
+     .copyright p {
+        font-size: 12px;
+    }
+
+}
