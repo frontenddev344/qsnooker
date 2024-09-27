@@ -1016,6 +1016,12 @@ span.heading-like {
     padding: 20px;
     border-radius: 15px;
 }
+.tournaments-events-cards:hover .tornaments-events-cards-image img {
+    transform: scale(1.08);
+}
+
+
+
 .tournaments-events-cards:last-child{
     margin-bottom: 0;
 }
@@ -1037,6 +1043,7 @@ span.heading-like {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: 0.4s all ease-in-out;
 }
 .help-us-wrapper p {
     color: #fff;
