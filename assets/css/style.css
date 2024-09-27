@@ -1028,6 +1028,7 @@ span.heading-like {
 
 .tornaments-events-cards-image {
     width: 40%;
+    overflow: hidden;
 }
 
 .tornaments-events-cards-content {
