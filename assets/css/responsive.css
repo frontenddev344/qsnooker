@@ -64,7 +64,10 @@
     h2.section-heading {
         font-size: 50px;
      }
-
+     .formbold-btn {
+        padding: 12px 15px;
+        width: 40%;
+    }
 
 
 }
@@ -119,6 +122,16 @@
     }
     .help-us-wrapper p {
         font-size: 14px;
+    }
+    .sub-pages-group h3 {
+        font-size: 28px;
+    }
+    .sub-pages-group p a {
+        font-size: 16px;
+    }
+    .formbold-btn {
+        padding: 12px 15px;
+        width: 50%;
     }
 
 }
@@ -239,6 +252,15 @@
     .accordion .top .text {
         font-size: 16px;
     }
+    .sub-pages-group h3 {
+        font-size: 26px;
+    }
+    .contact-page .form-section input {
+        width: 100%;
+    }
+    .contact-page .form-section button {
+        width: 40%;
+    }
 
 }
 
@@ -325,6 +347,20 @@
     .help-us-wrapper p {
         font-size: 14px;
     }
+    .sub-pages-group h3 {
+        font-size: 24px;
+    }
+    .sub-pages-group p a {
+        font-size: 15px;
+    }
+    .contact-page form.contact-form {
+        padding: 20px 0px;
+    }
+    .contact-page .form-container {
+        padding: 10px 0px;
+    }
+
+
 }
 
 
@@ -409,6 +445,14 @@
     .accordion .top .text {
         font-size: 14px;
     }
-
+    .sub-pages-group p {
+        font-size: 14px;
+    }
+    .sub-pages-group h3 {
+        font-size: 20px;
+    }
+    .contact-page .form-section button {
+        width: 70%;
+    }
 
 }
