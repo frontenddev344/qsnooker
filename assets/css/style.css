@@ -718,7 +718,7 @@ form.contact-form {
 }
 
 .disclaimer-wrapper {
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .disclaimer-wrapper p {
@@ -1016,6 +1016,9 @@ span.heading-like {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 35px;
+    box-shadow: #FFBB35 0px 4px 10px, #FFBB35 0px 8px 10px, #FFBB35 0px 5px 10px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .tornaments-events-cards-image {
@@ -1031,6 +1034,12 @@ span.heading-like {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.help-us-wrapper p {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.5;
 }
 /* Accordion CSS Start */
 .accordion {
