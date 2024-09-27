@@ -1161,7 +1161,41 @@ span.heading-like {
 /* Tournaments Events Page CSS Start */
 /* Other Page CSS End */
 
+/* Contact Us Page CSS Start */
 
+/* Contact Form CSS Start */
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-image {
+    width: 40%;
+    overflow: hidden;
+}
+
+.form-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.form-container {
+    width: 60%;
+    padding: 20px;
+    background-image: url("../images/form-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0 0 0/50%);
+    background-blend-mode: multiply;
+}
+
+.form-wrapper {
+    height: 100%;
+    width: 100%;
+}
+/* Contact Form CSS End*/
 
 
 
