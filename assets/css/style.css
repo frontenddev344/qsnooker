@@ -994,7 +994,9 @@ span.heading-like {
 
 /* Sub Pages CSS End */
 
-/* Other Page CSS Start */
+/* Other Page CSS Start */ 
+ 
+/* Tournaments Events Page CSS Start */
 .tornaments-events-cards-content ul li p img {
     width: 30px;
     height: 31px;
@@ -1030,12 +1032,10 @@ span.heading-like {
     width: 100%;
     object-fit: cover;
 }
-
-/* Home Page Accordion CSS Start */
-
+/* Accordion CSS Start */
 .accordion {
-    background-color: #efb847;
-    border-radius: 10px;
+    background-color:#FFBB35;
+    border-radius: 0px;
     justify-content: flex-start;
     align-items: stretch;
     display: grid;
@@ -1081,35 +1081,14 @@ span.heading-like {
     width:100%;
     background: none;
 }
-
-
-.accordion {
-    background-color: #efb847;
-    border-radius: 10px;
-    justify-content: flex-start;
-    align-items: stretch;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: .1fr 0fr;
-    overflow: hidden;
-    transition: grid-template-rows .3s cubic-bezier(.19, 1, .22, 1);
-    margin: .75rem 0
-}
-
-.accordion .top {
-    cursor: pointer;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: .9375rem;
-    display: flex;
-    position: relative
-}
-
 .accordion .top .text {
     font-size: 1.125rem;
     font-weight: 600;
     white-space: wrap;
     color: #ffffff;
+}
+.accordion .bottom .text p {
+    padding: 10px 0;
 }
 
 .accordion .top img {
@@ -1156,9 +1135,6 @@ span.heading-like {
 .accordion-wrap {
     margin-top: 3.75rem;
 }
-
-
-
 .accordion:has(input:checked) {
     grid-template-rows: .1fr 1fr
 }
@@ -1169,8 +1145,7 @@ span.heading-like {
 .accordion-wrap {
     margin-top: 3.75rem;
 }
-/* Home Page Accordion CSS Start */
-
+/* Tournaments Events Page CSS Start */
 /* Other Page CSS End */
 
 
