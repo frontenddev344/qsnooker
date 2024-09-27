@@ -1094,7 +1094,7 @@ span.heading-like {
     font-size: 1.125rem;
     font-weight: 600;
     white-space: wrap;
-    color: #ffffff;
+    color: #000;
 }
 .accordion .bottom .text p {
     padding: 10px 0;
