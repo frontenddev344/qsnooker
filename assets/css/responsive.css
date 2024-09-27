@@ -105,6 +105,21 @@
     .copyright p {
         font-size: 15px;
     }
+    .sub-pages-banner-text h1 {
+        font-size: 37px;
+    }
+    .tornaments-events-cards-image, .tornaments-events-cards-content {
+        width: 100%;
+    }
+    .tornaments-events-cards-content h3 {
+        font-size: 28px;
+    }
+    .accordion .bottom .text p {
+        font-size: 15px;
+    }
+    .help-us-wrapper p {
+        font-size: 14px;
+    }
 
 }
 
@@ -208,7 +223,22 @@
        .copyright p {
         font-size: 14px;
     }
+    .sub-pages-banner-text h1 {
+        font-size: 35px;
+    }
 
+    .tornaments-events-cards-content {
+        padding: 10px 5px;
+    }
+    .tornaments-events-cards-content p {
+        font-size: 15px;
+    }
+    .tornaments-events-cards-content h3 {
+        font-size: 26px;
+    }
+    .accordion .top .text {
+        font-size: 16px;
+    }
 
 }
 
@@ -277,9 +307,24 @@
     .footer .footer-items ul li a {
         font-size: 15px;
     }
-
-
-
+    .sub-pages-banner-text h1 {
+        font-size: 32px;
+    }
+    .tornaments-events-cards-content p {
+        font-size: 14px;
+    }
+    .tornaments-events-cards-content h3 {
+        font-size: 24px;
+    }
+    .accordion .top .text {
+        font-size: 15px;
+    }
+    .accordion .bottom .text p {
+        font-size: 14px;
+    }
+    .help-us-wrapper p {
+        font-size: 14px;
+    }
 }
 
 
@@ -347,5 +392,23 @@
      .copyright p {
         font-size: 12px;
     }
+    .sub-pages-banner-text h1 {
+        font-size: 27px;
+        max-width: 300px;
+    }
+    .tornaments-events-cards-content ul li p img {
+        width: 20px;
+        height: 20px;
+    }
+    .tornaments-events-cards-content p {
+        font-size: 13px;
+    }
+    .tornaments-events-cards-content h3 {
+        font-size: 22px;
+    }
+    .accordion .top .text {
+        font-size: 14px;
+    }
+
 
 }
