@@ -394,6 +394,7 @@
     }
     .home-advantage-cards {
         width: 100%;
+        min-height: 170px;
     }
     .home-gallery-images {
           height: 220px;
